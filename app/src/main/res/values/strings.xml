@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Earth app</string>
+
+    <string name="task_title">Daglige Opgave:</string>
+    <string name="task_title_bonus">Bonus Opgaver:</string>
+
+    <string name="status_title">Status:</string>
+    <string name="status_dry">Tørstig</string>
+    <string name="status_happy">Glad</string>
+
+    <string name="task_dry">Din avatar tørster! 250 point</string>
+    <string name="task_dry_description">
+        Din avatar tørster!\nSpar på vandet i dag og tag et kortere bad. Du kan optjene op til 250 point ved at tage et bad på maks 5 minutter
+    </string>
+    <string name="task_complete">Opgave fuldført</string>
+
+    <string name="task_energy">Energibesparelse 100 point</string>
+
+    <string name="profile_name">Annette Tester</string>
+    <string name="profile_point">0000</string>
+    <string name="profile_point_text">POINT</string>
+    <string name="profile_badge">Badges:</string>
+    <string name="profile_ranking">5 Plads</string>
+    <string name="profile_school">Test Gymnasiet 2.G</string>
+</resources>
