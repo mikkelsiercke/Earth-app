@@ -12,10 +12,10 @@ import android.widget.Chronometer;
 public class Task_Dry extends AppCompatActivity {
 
     private Chronometer chronometer;
-    private boolean running;
-    private Button startButton;
-    private Button stopButton;
-    private long timeBathing;
+    private boolean     running;
+    private Button      startButton;
+    private Button      stopButton;
+    private long        timeBathing;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,9 +59,9 @@ public class Task_Dry extends AppCompatActivity {
 
         MainActivity.user.setPoint(250);
 
-        if(timeBathing > 5 * 1000 && timeBathing < 15 *1000){
+        if(timeBathing > 5 * 1000 && timeBathing < 15 * 1000){
             MainActivity.user.setPoint(250);
-        }else if(timeBathing >  15 * 1000 && timeBathing < 30 *1000){
+        }else if(timeBathing >  15 * 1000 && timeBathing < 30 * 1000){
             MainActivity.user.setPoint(100);
         }else if(timeBathing > 30 * 1000 && timeBathing < 60 * 1000){
             MainActivity.user.setPoint(50);

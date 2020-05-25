@@ -15,6 +15,16 @@
     <string name="task_complete">Opgave fuldført</string>
 
     <string name="task_energy">Energibesparelse 100 point</string>
+    <string name="task_power_description">
+        Din avatar overopheder!\nSelvom elapparater ikke er i brug, bruger de stadig strøm. Hjælp din avatar, og træk stikkene ud.
+    </string>
+    <string name="task_tv">TV</string>
+    <string name="task_charger">Opladere</string>
+    <string name="task_computer">Computer</string>
+    <string name="task_games">Spillekonsol</string>
+    <string name="task_light">Lys</string>
+    <string name="task_kitchen">Elektrisk Køkkenudstyr</string>
+    <string name="task_bathroom">Elektrisk Badeværelsesudstyr</string>
 
     <string name="profile_name">Annette Tester</string>
     <string name="profile_point">0000</string>
@@ -22,4 +32,6 @@
     <string name="profile_badge">Badges:</string>
     <string name="profile_ranking">5 Plads</string>
     <string name="profile_school">Test Gymnasiet 2.G</string>
+
+    <string name="tasks_title">Opgaver</string>
 </resources>

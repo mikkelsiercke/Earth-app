@@ -13,7 +13,11 @@ public class User extends AppCompatActivity {
     }
 
     public void setPoint(int point) {
-        this.point = point;
+        this.point += point;
+    }
+
+    public void removePoint(int point) {
+        this.point -= point;
     }
 
     public boolean isTask_completed() {

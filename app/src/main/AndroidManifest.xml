@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Task_power"></activity>
         <activity android:name=".Task_Dry" />
         <activity android:name=".Friends" />
         <activity android:name=".Tasks" />
@@ -22,6 +23,5 @@
             </intent-filter>
         </activity>
     </application>
-
 
 </manifest>

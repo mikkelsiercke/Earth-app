@@ -48,6 +48,7 @@ public class HomePage extends AppCompatActivity implements View.OnClickListener 
             avatar_dry.setImageResource(R.drawable.avatar_happy);
             avatar_status.setText(avatar_happy);
             task_completed.setChecked(true);
+            Toast.makeText(this,"Tilføjet 250 point", Toast.LENGTH_SHORT).show();
         }
     }
 

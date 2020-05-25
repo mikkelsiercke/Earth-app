@@ -20,9 +20,9 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
 
         setContentView(R.layout.activity_profile);
 
-        ImageButton button_home = findViewById(R.id.button_home);
+        ImageButton button_home    = findViewById(R.id.button_home);
         ImageButton button_profile = findViewById(R.id.button_profile);
-        ImageButton button_tasks = findViewById(R.id.button_tasks);
+        ImageButton button_tasks   = findViewById(R.id.button_tasks);
         ImageButton button_friends = findViewById(R.id.button_friends);
 
         button_home.setOnClickListener(this);
