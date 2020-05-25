@@ -223,7 +223,7 @@
                     tools:layout_editor_absoluteY="0dp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox2"
+                    android:id="@+id/checkBox_energy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -240,11 +240,11 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button_energy"
+                    android:id="@+id/button2"
                     android:layout_width="300dp"
                     android:layout_height="42dp"
                     android:gravity="left"
-                    android:text="@string/task_energy"
+                    android:text="@string/tasks_bike"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
@@ -258,7 +258,7 @@
                     android:duplicateParentState="false"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/button_energy"
+                    app:layout_constraintStart_toEndOf="@+id/button2"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -267,17 +267,17 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button_energy"
+                    android:id="@+id/button3"
                     android:layout_width="300dp"
                     android:layout_height="42dp"
                     android:gravity="left"
-                    android:text="@string/task_energy"
+                    android:text="@string/tasks_cup"
                     android:textSize="18sp"
                     app:layout_constraintStart_toStartOf="parent"
                     tools:layout_editor_absoluteY="0dp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox2"
+                    android:id="@+id/checkBox3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -285,7 +285,7 @@
                     android:duplicateParentState="false"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/button_energy"
+                    app:layout_constraintStart_toEndOf="@+id/button3"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -294,17 +294,17 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button_energy"
+                    android:id="@+id/button4"
                     android:layout_width="300dp"
                     android:layout_height="42dp"
                     android:gravity="left"
-                    android:text="@string/task_energy"
+                    android:text="@string/tasks_meat"
                     android:textSize="18sp"
                     app:layout_constraintStart_toStartOf="parent"
                     tools:layout_editor_absoluteY="0dp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox2"
+                    android:id="@+id/checkBox4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -312,7 +312,7 @@
                     android:duplicateParentState="false"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/button_energy"
+                    app:layout_constraintStart_toEndOf="@+id/button4"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 

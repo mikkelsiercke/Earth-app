@@ -8,6 +8,7 @@ import android.os.SystemClock;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
+import android.widget.Toast;
 
 public class Task_Dry extends AppCompatActivity {
 
@@ -72,6 +73,7 @@ public class Task_Dry extends AppCompatActivity {
         Intent intent = new Intent(this, HomePage.class);
         intent.putExtra("COMPLETED", new Boolean(true));
         MainActivity.user.setTask_completed(true);
+        Toast.makeText(this,"Tilføjet 250 point", Toast.LENGTH_LONG).show();
         startActivity(intent);
     }
 }

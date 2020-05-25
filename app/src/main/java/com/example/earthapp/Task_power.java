@@ -50,12 +50,16 @@ public class Task_power extends AppCompatActivity implements View.OnClickListene
             case R.id.check_bathroom:
                 if(checked) {
                     MainActivity.user.setPoint(point);
-                    Toast.makeText(this,"point " + MainActivity.user.getPoint(),Toast.LENGTH_SHORT).show();
                 } else {
                     MainActivity.user.removePoint(point);
-                    Toast.makeText(this,"point " + MainActivity.user.getPoint(),Toast.LENGTH_SHORT).show();
                 }
                 break;
         }
+    }
+
+    public void return_to_homepage(View view) {
+        Toast.makeText(this,"Du har nu " + MainActivity.user.getPoint() + " point",Toast.LENGTH_SHORT).show();
+        MainActivity.user.setTask_completed_bonus(true);
+        this.finish();
     }
 }

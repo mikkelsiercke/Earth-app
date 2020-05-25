@@ -14,7 +14,7 @@
     </string>
     <string name="task_complete">Opgave fuldført</string>
 
-    <string name="task_energy">Energibesparelse 100 point</string>
+    <string name="task_energy">Energibesparelse 140 Point</string>
     <string name="task_power_description">
         Din avatar overopheder!\nSelvom elapparater ikke er i brug, bruger de stadig strøm. Hjælp din avatar, og træk stikkene ud.
     </string>
@@ -34,4 +34,10 @@
     <string name="profile_school">Test Gymnasiet 2.G</string>
 
     <string name="tasks_title">Opgaver</string>
+    <string name="tasks_bike">Cykel i skole 140 point </string>
+    <string name="tasks_cup">Egen kop med i skole 140 point </string>
+    <string name="tasks_sorting">Affaldssortering 140 point </string>
+    <string name="tasks_shopnet">Indkøbsnet 140 point </string>
+    <string name="tasks_meat">Kødfri dag 140 point </string>
+    <string name="tasks_local">Spis lokalt 140 point </string>
 </resources>

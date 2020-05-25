@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static User user = new User();
+    public static User user = new User("Anette Tester","",0);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void start_login(View view) {
-        Toast.makeText(this,"Logget Ind", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Logget Ind", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, HomePage.class);
         startActivity(intent);
     }

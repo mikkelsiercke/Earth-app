@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class Tasks extends AppCompatActivity implements View.OnClickListener {
@@ -30,7 +29,7 @@ public class Tasks extends AppCompatActivity implements View.OnClickListener {
         button_tasks.setOnClickListener(this);
         button_friends.setOnClickListener(this);
 
-        Button button_2 = findViewById(R.id.button2);
+        Button button_2 = findViewById(R.id.button_energy);
         Button button_3 = findViewById(R.id.button3);
         Button button_4 = findViewById(R.id.button4);
         Button button_5 = findViewById(R.id.button5);
@@ -86,7 +85,7 @@ public class Tasks extends AppCompatActivity implements View.OnClickListener {
                 startActivity(intent_start_task);
                 break;
 
-            case R.id.button2:
+            case R.id.button_energy:
                 Intent intent_task_2 = new Intent(this, Task_power.class);
                 startActivity(intent_task_2);
                 break;

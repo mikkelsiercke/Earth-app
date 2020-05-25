@@ -27,8 +27,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="324dp"
-        android:layout_height="237dp"
+        android:layout_width="318dp"
+        android:layout_height="163dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="32dp"
@@ -161,5 +161,22 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/check_tv" />
+
+    <Button
+        android:id="@+id/button_complete"
+        android:layout_width="144dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="32dp"
+        android:background="#8BC34A"
+        android:onClick="return_to_homepage"
+        android:text="@string/task_complete"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_bathroom"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
